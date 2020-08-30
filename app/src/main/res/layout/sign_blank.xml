@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/sign_text_blank_id"
+        android:gravity="center"
+        android:weightSum="2"
+>
+    <LinearLayout
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#ff0040"
+    >
+        <ImageView android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:src="@drawable/warningicon"
+                   android:padding="5dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:background="#ff7300"
+            android:gravity="center"
+            android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+        <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please fill all the box"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold|normal|italic"
+                android:padding="7dp"
+        />
+    </LinearLayout>
+</LinearLayout>

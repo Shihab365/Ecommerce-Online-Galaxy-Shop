@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.greenshopap.bel.greenshop_eca">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/applogo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/applogo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" tools:replace="android:icon">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogingActivity">
+        </activity>
+        <activity android:name=".SignUpActivity">
+        </activity>
+        <activity android:name=".TimelineActivity">
+        </activity>
+        <activity android:name=".MyCartActivity">
+        </activity>
+        <activity android:name=".LaptopActivity">
+        </activity>
+        <activity android:name=".MobileActivity">
+        </activity>
+        <activity android:name=".SunglassActivity">
+        </activity>
+        <activity android:name=".WatchActivity">
+        </activity>
+        <activity android:name=".ToysActivity">
+        </activity>
+        <activity android:name=".BackpackActivity">
+        </activity>
+        <activity android:name=".ProductDetailsActivity">
+        </activity>
+        <activity android:name=".ShippingActivity">
+        </activity>
+        <activity android:name=".PaymentActivity">
+        </activity>
+    </application>
+
+</manifest>

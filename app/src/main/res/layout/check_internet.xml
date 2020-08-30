@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+>
+    <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:weightSum="2"
+    >
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#01579b"
+                android:orientation="vertical"
+                android:gravity="center"
+        >
+            <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/offlineicon"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Internet Connection"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold|normal"
+                    android:textSize="15sp"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e8eaf6"
+                android:gravity="center"
+                android:orientation="vertical"
+        >
+            <TextView
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure that,Wi-Fi or mobile data is turned on,then try again."
+                    android:textStyle="bold|italic"
+                    android:textColor="#263238"
+            />
+            <Button
+                    android:id="@+id/tryagain_btn_id"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:text="Try Again"
+                    android:textAllCaps="false"
+                    android:textSize="14sp"
+                    android:textStyle="bold|normal"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/tryagain_btn"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
